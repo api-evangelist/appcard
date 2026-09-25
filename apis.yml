@@ -1,7 +1,6 @@
 aid: appcard
 name: AppCard AI
-description: 'AppCard AI is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'AppCard provides AI‑driven customer retention solutions for independent grocery retailers. Its platform captures 100% of transaction data, delivering personalized offers, loyalty programs, and analytics that increase spend and coupon redemption. With tools ranging from in‑lane terminals to digital coupons, AppCard helps grocers simplify loyalty, boost sales, and gain actionable insights.'
 url: https://raw.githubusercontent.com/api-evangelist/appcard/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -11,7 +10,13 @@ specificationVersion: '0.20'
 created: '2026-09-25'
 modified: '2026-09-25'
 tags:
-- Company
+- Loyalty
+- Customer Retention
+- Grocery
+- AI Analytics
+- Digital Coupons
+- In‑Lane Terminal
+- Personalized Marketing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +24,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/appcard-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/appcard_stock/
+  url: https://www.appcard.com/
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No OpenAPI, AsyncAPI, GraphQL, or other machine‑readable contract found at the API host.
+  evidence:
+    - url: https://api.appcard.com/openapi.json
+      status: 404
+  checked: 2026-09-25
