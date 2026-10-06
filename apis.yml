@@ -8,7 +8,7 @@ x-tier: stub
 x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-09-25'
-modified: '2026-09-25'
+modified: '2026-10-06'
 tags:
 - Loyalty
 - Customer Retention
@@ -24,6 +24,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.appcard.com/blogs
+  type: Blog
 - type: DomainSecurity
   url: security/appcard-domain-security.yml
 - type: Website
